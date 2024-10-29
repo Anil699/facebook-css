@@ -1,0 +1,121 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4267B2;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.header-left input {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+}
+
+.header-right a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Feed Styling */
+.feed {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.status-update {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.status-update input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Right Panel Styling */
+.right-panel {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.right-panel .ad {
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.right-panel ul {
+    list-style: none;
+}
+
+.right-panel ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
